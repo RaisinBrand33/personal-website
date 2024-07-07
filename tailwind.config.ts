@@ -21,6 +21,13 @@ const config: Config = {
         "nasa-cream": "#f7efd8"
       }
     },
+    "keyframes": {
+    "shimmer": {
+    "100%": {
+    "transform": "translateX(100%)",
+        },
+      },
+    },
   },
   plugins: [],
 };

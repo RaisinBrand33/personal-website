@@ -2,6 +2,7 @@ import Image from "next/image";
 import { FaLinkedin } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import LinkBox from "@/components/link-box";
+import NameChip from "@/components/name-chip";
 
 export default function Home() {
   return (
@@ -26,6 +27,8 @@ export default function Home() {
         </div>
 
       </div>
+
+      <NameChip title="Brandon Farber" />
     </main>
   );
 }
