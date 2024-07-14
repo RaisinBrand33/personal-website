@@ -38,23 +38,23 @@ export const SVGs = () => {
          */}
       <path
         d="M300 129.5 H16.5 C 16.5 129.5 6.5 128 6.5 140 V250"
-        stroke="var(--zinc-800)"
+        className="stroke-zinc-800"
       />
       <path
         d="M690 129.5 H841 C846.523 129.5 851 124.5 851 120 V40"
-        stroke="var(--zinc-800)"
+        className="stroke-zinc-800"
       />
       <path
         d="M 412 274 V333 C412 338.523 412 343 408 343 H 337.9 C 337.9 343 333.9 343 333.9 347 V426.5"
-        stroke="var(--zinc-800)"
+        className="stroke-zinc-800"
       />
       <path
         d="M524 274 V333.226 C524 338.749 524 343.226 528 343.226 H876 C 880 343.226 880 347.703 880 353.226V427"
-        stroke="var(--zinc-800)"
+        className="stroke-zinc-800"
       />
       <path
         d="M412 168 V17 C412 11.4772 416 7 420 7 H450"
-        stroke="var(--zinc-800)"
+        className="stroke-zinc-800"
       />
 
       {/* Gradient Beams */}
@@ -177,36 +177,31 @@ export const SVGs = () => {
         cx="851"
         cy="34"
         r="6.5"
-        fill="var(--zinc-700)"
-        stroke="var(--zinc-600)"
+        className="stroke-zinc-600 fill-zinc-700"
       />
       <circle
         cx="880"
         cy="427"
         r="6.5"
-        fill="var(--zinc-700)"
-        stroke="var(--zinc-600)"
+        className="stroke-zinc-600 fill-zinc-700"
       />
       <circle
         cx="333.9"
         cy="427"
         r="6.5"
-        fill="var(--zinc-700)"
-        stroke="var(--zinc-600)"
+        className="stroke-zinc-600 fill-zinc-700"
       />
       <circle
         cx="6.5"
         cy="250"
         r="6"
-        fill="var(--zinc-700)"
-        stroke="var(--zinc-600)"
+        className="stroke-zinc-600 fill-zinc-700"
       />
       <circle
         cx="450"
         cy="6.5"
         r="6"
-        fill="var(--zinc-700)"
-        stroke="var(--zinc-600)"
+        className="stroke-zinc-600 fill-zinc-700"
       />
     </svg>
   );
