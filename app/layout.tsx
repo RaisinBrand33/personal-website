@@ -19,8 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${myFont.className} bg-black text-slate-300 max-w-5xl mx-auto p-4`}>
-        <Navvy/>
+      <body className={`${myFont.className} bg-black text-slate-300 p-4 flex flex-col min-h-screen`}>
         {children}
       </body>
     </html>
