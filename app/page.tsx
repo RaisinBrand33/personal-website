@@ -6,7 +6,7 @@ const circleVariants = {
   visible: {
       pathLength: 1,
       opacity: 1,
-      stroke: "var(--nasa-cyan)",
+      stroke: "#01a9a9",
       transition: {
         pathLength: { type: "spring", duration: 2.4, bounce: 0 },
         opacity: { duration: 0.01 },
