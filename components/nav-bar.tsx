@@ -35,7 +35,7 @@
 // Navvy component
 import Link from 'next/link';
 
-const scrollToSection = (id) => {
+const scrollToSection = (id:string) => {
   const section = document.getElementById(id);
   if (section) {
     section.scrollIntoView({ behavior: 'smooth', block: 'start', inline: "nearest"});
