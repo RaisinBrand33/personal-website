@@ -12,7 +12,7 @@ export default function ProjBox({title, description, tools, image}: {title: stri
                 <div className="mt-auto flex flex-col gap-3">
                     <div className="flex gap-5 justify-center">
                         {tools.map((tool)=>(
-                            <div className="bg-zinc-950 p-1 rounded-lg border border-white">
+                            <div key={tool} className="bg-zinc-950 p-1 rounded-lg border border-white">
                                 <p>{tool}</p>
                             </div>
                         ))}
